@@ -23,7 +23,7 @@ namespace LogManager.ConsumerService
                     ControllerName = "LogManagerController"
                 }, stoppingToken);
 
-                await Task.Delay(20000, stoppingToken);
+                await Task.Delay(40000, stoppingToken);
             }
         }
     }

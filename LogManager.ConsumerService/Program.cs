@@ -5,11 +5,10 @@ using System.Reflection;
 
 var builder = Host.CreateApplicationBuilder(args);
 
-builder.Services.AddSingleton<IPublishObserver, PublishObserver>();
-builder.Services.AddSingleton<ISendObserver, SendObserver>();
+//builder.Services.AddSingleton<IPublishObserver, PublishObserver>();
+//builder.Services.AddSingleton<ISendObserver, SendObserver>();
 
-
-builder.Services.AddSingleton<IConsumeObserver, ConsumeObserver>();
+//builder.Services.AddSingleton<IConsumeObserver, ConsumeObserver>();
 
 builder.Services.AddMassTransit(x =>
 {
